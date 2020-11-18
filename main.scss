@@ -80,8 +80,12 @@ body {
         right: 10%;
         top: 7%;
     }
+  
     li {
         padding: 1em;
+    }  
+    li:first-child {
+       padding-top: 2em;
     }
 }
 .header {
@@ -95,8 +99,6 @@ body {
             display: flex;
             align-items: center;
             justify-content: space-between;
-           
-          
             input, label {
                 display: none;
             }
@@ -122,18 +124,6 @@ body {
             }
             @media only screen and (max-width : 930px)  {
                 width: 100%;
-               /* input[type="checkbox"]:checked ~ .mobile__nav {
-                    display: block;
-                    position: absolute;
-                    top: 50%;
-                    right: 0;
-                    background-color:  #4773FF;
-                    color: white;
-                    li {
-                        padding-left: 0;
-                        padding: 1em;
-                    }
-                }*/
             }
         }
         .buttons {
