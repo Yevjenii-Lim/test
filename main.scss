@@ -71,6 +71,10 @@ body {
     justify-content: center;
     z-index: 10;
     transition: 0.5s;
+    a {
+        color: white;
+        text-decoration: none;
+    }
     svg {
         position: absolute;
         right: 10%;
