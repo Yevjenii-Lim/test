@@ -5,8 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="index.js" defer=" "></script>
 </head>
 <body>
+    <div class="overlay"></div>
+    <ul class="mobile__nav">
+        <svg class="close" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        <li>Вход</li>
+        <li>Создать сайт</li>
+        <li>Сайты</li>
+        <li>Квизы</li>
+        <li>Академия</li>
+        <li>Помощь</li>
+        <li>Тарифы</li>
+    </ul>
     <header class="header">
         <div class="container">
             <div class="container__top">
@@ -14,23 +26,15 @@
                     <h2>Logo</h2> 
                     <input type="checkbox" id="menu">
                     <ul class="menu__nav">
-                        <li>Сайты</li>
-                        <li>Квизы</li>
-                        <li>Академия</li>
-                        <li>Помощь</li>
-                        <li>Тарифы</li>
+                        <li><a href="#">Сайты</a> </li>
+                        <li><a href="#">Квизы</a> </li>
+                        <li><a href="#">Академия</a></li>
+                        <li><a href="#">Помощь</a></li>
+                        <li><a href="#">Тарифы</a></li>
                     </ul>
-                    <ul class="mobile__nav">
-                        <li>Вход</li>
-                        <li>Создать сайт</li>
-                        <li>Сайты</li>
-                        <li>Квизы</li>
-                        <li>Академия</li>
-                        <li>Помощь</li>
-                        <li>Тарифы</li>
-                    </ul>
+                  
                     
-                    <label for="menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></label>
+                    <label class="gamburger" for="menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></label>
                 </div>
                 <div class="buttons">
                     <button class="buttons__button">Войти</button>
